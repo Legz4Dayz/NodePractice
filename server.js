@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
     console.log('request made');
     console.log(req.url, req.method);
 
-    //lodash
+    //lodash test
     const num = _.random(0, 20);
     console.log(num);
 
